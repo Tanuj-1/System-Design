@@ -1,0 +1,372 @@
+?System Design Complete Syllabus
+
+1. System Design Fundamentals
+- What is System Design?
+- Why is System Design important?
+- Types of System Design: HLD and LLD
+- Functional Requirements
+- Non-Functional Requirements
+- System Design Process
+- Monolithic Architecture
+- Distributed Systems
+- Trade-offs in System Design
+
+2. Non-Functional Requirements (NFRs)
+- Scalability
+- Availability
+- Reliability
+- Fault Tolerance
+- Performance
+- Latency
+- Throughput
+- Consistency
+- Durability
+- Maintainability
+- Security
+- Cost Optimization
+
+3. Scalability
+- What is Scalability?
+- Vertical Scaling (Scale Up)
+- Horizontal Scaling (Scale Out)
+- Stateless vs Stateful Systems
+- Bottlenecks
+- Elasticity
+- Auto Scaling
+- Single Point of Failure (SPOF)
+
+4. Computer Networking Basics
+- Client-Server Architecture
+- IP Address and Port
+- DNS (Domain Name System)
+- HTTP vs HTTPS
+- Request-Response Cycle
+- TCP vs UDP
+- REST Architecture
+- WebSockets
+- Proxy Server
+- Reverse Proxy
+- Latency vs Bandwidth
+- TLS/SSL
+
+5. Load Balancing
+- What is Load Balancing?
+- Why is Load Balancing needed?
+- Layer 4 vs Layer 7 Load Balancing
+- Round Robin
+- Weighted Round Robin
+- Least Connections
+- IP Hash
+- Health Checks
+- Failover
+- Active-Active vs Active-Passive
+- Load Balancer vs Reverse Proxy
+
+6. Caching
+- What is Caching?
+- Why is Caching needed?
+- Cache Hit vs Cache Miss
+- Cache Hit Ratio
+- Client-Side Caching
+- Server-Side Caching
+- Database Caching
+- CDN Caching
+- Cache-Aside
+- Read-Through Cache
+- Write-Through Cache
+- Write-Back Cache
+- Write-Around Cache
+- Cache Invalidation
+- TTL (Time to Live)
+- LRU, LFU and FIFO
+- Cache Stampede
+- Distributed Caching
+
+7. Database Design
+- SQL vs NoSQL
+- Relational vs Non-Relational Databases
+- Database Schema Design
+- Normalization
+- Denormalization
+- Primary Key and Foreign Key
+- Indexing
+- Composite Index
+- Query Optimization
+- ACID Properties
+- Database Transactions
+- Isolation Levels
+- Connection Pooling
+- Replication
+- Read Replicas
+- Sharding
+- Partitioning
+- Hot Partitions
+
+8. Distributed Systems
+- What is a Distributed System?
+- Advantages and Challenges
+- CAP Theorem
+- PACELC Theorem
+- Strong Consistency
+- Eventual Consistency
+- Causal Consistency
+- Distributed Transactions
+- Distributed Locks
+- Leader Election
+- Consensus Algorithms
+- Quorum
+- Split-Brain Problem
+- Clock Synchronization
+- Idempotency
+- Retry Mechanism
+- Timeouts
+- Exponential Backoff
+- Jitter
+- Partial Failures
+
+9. System Architecture Patterns
+- Monolithic Architecture
+- Layered Architecture
+- Microservices Architecture
+- Service-Oriented Architecture (SOA)
+- Event-Driven Architecture
+- Serverless Architecture
+- Modular Monolith
+- API Gateway
+- Backend for Frontend (BFF)
+- Service Discovery
+- Circuit Breaker Pattern
+- Bulkhead Pattern
+- Strangler Pattern
+- Saga Pattern
+- CQRS
+- Event Sourcing
+
+10. Message Queues and Asynchronous Processing
+- Synchronous vs Asynchronous Communication
+- What is a Message Queue?
+- Producer and Consumer
+- Publish-Subscribe Pattern
+- Message Broker
+- Kafka Basics
+- RabbitMQ Basics
+- Message Ordering
+- At-Most-Once Delivery
+- At-Least-Once Delivery
+- Exactly-Once Processing Concepts
+- Dead Letter Queue (DLQ)
+- Retry Mechanism
+- Backpressure
+- Transactional Outbox Pattern
+
+11. API Design and Communication
+- What is an API?
+- REST vs GraphQL vs gRPC
+- API Gateway
+- API Versioning
+- Pagination
+- Filtering and Sorting
+- Request Validation
+- Rate Limiting
+- Throttling
+- Idempotency Keys
+- Synchronous APIs
+- Asynchronous APIs
+- Long Polling
+- Server-Sent Events (SSE)
+- WebSockets
+
+12. Rate Limiting
+- What is Rate Limiting?
+- Why is Rate Limiting needed?
+- Fixed Window Algorithm
+- Sliding Window Log
+- Sliding Window Counter
+- Token Bucket Algorithm
+- Leaky Bucket Algorithm
+- Distributed Rate Limiting
+- API Quotas
+- Throttling
+
+13. Content Delivery Network (CDN)
+- What is a CDN?
+- Why is CDN needed?
+- Edge Servers
+- Origin Server
+- Pull CDN vs Push CDN
+- Static Content Delivery
+- Dynamic Content Delivery
+- CDN Caching
+- Cache Invalidation
+- CDN vs Reverse Proxy
+
+14. Storage Systems
+- File Storage
+- Block Storage
+- Object Storage
+- Distributed File Systems
+- Blob Storage
+- Metadata Storage
+- File Upload and Download Architecture
+- Multipart Upload
+- Pre-Signed URLs
+- Data Durability
+- Storage Lifecycle Management
+
+15. Security in System Design
+- Authentication vs Authorization
+- Session-Based Authentication
+- Token-Based Authentication
+- JWT Basics
+- OAuth 2.0 and OpenID Connect Basics
+- Role-Based Access Control (RBAC)
+- Encryption at Rest
+- Encryption in Transit
+- Secrets Management
+- Input Validation
+- Rate Limiting for Abuse Prevention
+- DDoS Protection
+- Audit Logging
+- Principle of Least Privilege
+
+16. Reliability and Fault Tolerance
+- Single Point of Failure (SPOF)
+- Redundancy
+- Replication
+- Failover
+- Health Checks
+- Heartbeats
+- Retry and Timeout Strategies
+- Circuit Breaker
+- Graceful Degradation
+- Disaster Recovery
+- Backup and Restore
+- Multi-Region Architecture
+- RPO (Recovery Point Objective)
+- RTO (Recovery Time Objective)
+- Chaos Engineering
+
+17. Monitoring and Observability
+- Monitoring vs Observability
+- Logging
+- Metrics
+- Distributed Tracing
+- Alerting
+- Golden Signals
+- SLI (Service Level Indicator)
+- SLO (Service Level Objective)
+- SLA (Service Level Agreement)
+- Error Budget
+- Dashboards
+- Root Cause Analysis (RCA)
+
+18. Data Processing and Search
+- Batch Processing
+- Stream Processing
+- Real-Time Processing
+- ETL vs ELT
+- Data Pipelines
+- OLTP vs OLAP
+- Search Engine Architecture
+- Full-Text Search
+- Inverted Index
+- Elasticsearch Basics
+- Data Warehouse Basics
+
+19. Capacity Estimation
+- Number of Users
+- Daily Active Users (DAU)
+- Requests Per Second (RPS)
+- Peak Traffic Estimation
+- Read-to-Write Ratio
+- Storage Estimation
+- Bandwidth Estimation
+- Memory Estimation
+- Cache Size Estimation
+- Traffic Growth Estimation
+- Availability Estimation
+- Back-of-the-Envelope Calculations
+
+20. Low-Level Design (LLD)
+- What is LLD?
+- Object-Oriented Design Principles
+- SOLID Principles
+- DRY Principle
+- KISS Principle
+- YAGNI Principle
+- Separation of Concerns
+- UML Class Diagram
+- Sequence Diagram
+- Activity Diagram
+- State Diagram
+- Association
+- Aggregation
+- Composition
+- Inheritance vs Composition
+- Coupling and Cohesion
+Design Patterns
+- Singleton Pattern
+- Factory Pattern
+- Abstract Factory Pattern
+- Builder Pattern
+- Strategy Pattern
+- Observer Pattern
+- Adapter Pattern
+- Decorator Pattern
+- Facade Pattern
+- Proxy Pattern
+- Template Method Pattern
+- Chain of Responsibility Pattern
+
+21. High-Level Design (HLD) Practice Problems
+Har problem ko requirements, APIs, database, architecture diagram, scaling aur failure handling ke basis par design karna seekho.
+1. URL Shortener (Bitly)
+2. Rate Limiter
+3. Pastebin
+4. Notification System
+5. Chat Application (WhatsApp)
+6. Social Media News Feed
+7. Instagram
+8. YouTube
+9. Google Drive / File Storage
+10. Autocomplete / Search Suggestions
+11. E-Commerce System
+12. Payment System
+13. Food Delivery System
+14. Ride-Hailing System (Uber)
+15. Ticket Booking System
+16. Hotel Reservation System
+17. Distributed Cache
+18. Web Crawler
+19. Logging and Monitoring System
+20. Online Judge
+21. Leaderboard System
+22. Email Service
+23. Job Scheduler
+24. API Gateway
+25. Inventory Management System
+26. Digital Wallet
+27. Video Streaming Platform
+28. Location-Based Service
+
+22. Low-Level Design (LLD) Practice Problems
+1. Parking Lot System
+2. Elevator System
+3. Library Management System
+4. ATM System
+5. Vending Machine
+6. Splitwise
+7. BookMyShow
+8. Chess Game
+9. Snake and Ladder
+10. Tic-Tac-Toe
+11. Movie Ticket Booking
+12. Hotel Management System
+13. Restaurant Management System
+14. Cab Booking System
+15. Shopping Cart
+16. Payment Gateway
+17. Notification Service
+18. Meeting Room Scheduler
+19. File System
+20. Rate Limiter
