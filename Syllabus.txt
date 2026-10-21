@@ -1,4 +1,4 @@
-?System Design Complete Syllabus
+System Design Complete Syllabus
 
 1. System Design Fundamentals
 - What is System Design?
