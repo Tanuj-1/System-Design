@@ -1,4 +1,3 @@
-
 /*
 Car Interface --> Act as an interface for Outsiude world to operate the car. 
 This interface tells 'WHAT' all it can do rather then 'HOW' it does that.
@@ -89,7 +88,6 @@ class SportsCar implements Car {
 
 //Main Method
 public class Abstraction {
-    
     public static void main(String[] args) {
 
         Car myCar = new SportsCar("Ford", "Mustang");
