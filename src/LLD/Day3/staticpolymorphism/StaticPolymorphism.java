@@ -14,6 +14,8 @@ class ManualCar {
     private String model;
     private boolean isEngineOn;
     private int currentSpeed;
+
+    
     private int currentGear;
 
     public ManualCar(String brand, String model) {
